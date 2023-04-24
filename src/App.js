@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Gird from './component/gird';
+
 
 function App() {
   return (
-    <div className="App">
-      <h1> Truong trung nguyen</h1>
-      <h2>hello</h2>
+    <div >
+      <Gird></Gird>
     </div>
   );
 }
